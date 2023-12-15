@@ -36,7 +36,7 @@ const routes: Routes = [
         redirectTo: 'list'
       }
     ]
-  },
+  }
 ];
 
 @NgModule({
