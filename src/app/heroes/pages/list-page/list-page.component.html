@@ -1,1 +1,9 @@
-<p>list-page workss!</p>
+<h1>
+  Listado de héroes
+</h1>
+<mat-divider></mat-divider>
+<ul>
+  <li *ngFor="let heroe of heroes">
+    {{heroe.superhero}}
+  </li>
+</ul>
